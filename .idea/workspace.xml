@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0785ce0-a878-4fa8-9fba-766b4de28277" name="Changes" comment="Convert celcius to fahrenheit">
-      <change afterPath="$PROJECT_DIR$/scanPort.py" afterDir="false" />
+    <list default="true" id="e0785ce0-a878-4fa8-9fba-766b4de28277" name="Changes" comment="port scanning with python">
+      <change afterPath="$PROJECT_DIR$/file_handling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing_variable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scanPort.py" beforeDir="false" afterPath="$PROJECT_DIR$/scanPort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,21 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "NealAndrianja"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NealAndrianja&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NealAndrianja/pythonTraining.git",
-    "accountId": "d1312da3-f8fa-4148-bb00-c1e1801ccc88"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NealAndrianja/pythonTraining.git&quot;,
+    &quot;accountId&quot;: &quot;d1312da3-f8fa-4148-bb00-c1e1801ccc88&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2r4igzhqnqqLfoLBlW0qKvkF2PJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,12 +48,44 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.file_handling.executor": "Run",
+    "Python.scanPort.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.testing_variable.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="scanPort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scanPort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.scanPort" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735825758927</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="port scanning with python">
+      <option name="closed" value="true" />
+      <created>1735827997767</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735827997767</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Convert celcius to fahrenheit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Convert celcius to fahrenheit" />
+    <MESSAGE value="port scanning with python" />
+    <option name="LAST_COMMIT_MESSAGE" value="port scanning with python" />
   </component>
 </project>
