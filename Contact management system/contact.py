@@ -1,6 +1,6 @@
 import file
 
-contacts = [{}]
+contacts = file.readData()
 phone_numbers = set()
 
 def add_contact(name, phone, email, address):
@@ -19,3 +19,7 @@ def remove_contact(phone):
             contacts.remove(contact)
             phone_numbers.remove(phone)
             return
+
+def list_contacts():
+    for contact in contacts:
+        print(f"{contact['name']}, {contact['phone']}, {contact['email']}, {contact['address']}")

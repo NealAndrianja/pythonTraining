@@ -1,17 +1,23 @@
 import csv
 
 def writeData(data):
-    with open("contacts.csv", "r") as file:
-        reader = csv.reader(file)
-        if reader.line_num < 2:
-            writeNew(data)
-        else:
-            appendData(data)
+    has_data = False
+    try:
+        with open("contacts.csv", "r") as file:
+            reader = csv.reader(file)
+            has_data = any(reader)
+    except FileNotFoundError:
+        has_data = False
+
+    if not has_data:
+        writeNew(data)
+    else:
+        appendData(data)
 
 
 
 def writeNew(data):
-    with open("contacts.csv", "a", newline='') as file:
+    with open("contacts.csv", "w", newline='') as file:
         writer = csv.writer(file)
         writer.writerow(data.keys())
         writer.writerows([data.values()])
@@ -19,4 +25,12 @@ def writeNew(data):
 def appendData(data):
     with open("contacts.csv", "a", newline='') as file:
         writer = csv.writer(file)
-        writer.writerow([data.values()])
+        writer.writerows([data.values()])
+
+def readData():
+    data = []
+    with open("contacts.csv", "r") as file:
+        reader = csv.reader(file)
+        for row in reader:
+            data.append(row)
+    return data

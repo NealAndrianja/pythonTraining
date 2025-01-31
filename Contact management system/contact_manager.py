@@ -20,6 +20,8 @@ def main():
             address = input("Enter address: ")
             contact.add_contact(name, phone, email, address)
             print(f"Contact {name} saved successfully.")
+        elif choice == 2:
+            contact.list_contacts()
 
 
 if __name__ == "__main__":
