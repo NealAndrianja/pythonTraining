@@ -21,5 +21,8 @@ def remove_contact(phone):
             return
 
 def list_contacts():
-    for contact in contacts:
-        print(f"{contact['name']}, {contact['phone']}, {contact['email']}, {contact['address']}")
+    print(contacts)
+
+def find_contact(value):
+    result = file.searchBy(value)
+    print(result)

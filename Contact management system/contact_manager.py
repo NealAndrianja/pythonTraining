@@ -22,6 +22,10 @@ def main():
             print(f"Contact {name} saved successfully.")
         elif choice == 2:
             contact.list_contacts()
+        elif choice == 3:
+            contact.find_contact(input("Enter the value you want to search: "))
+        elif choice == 7:
+            break
 
 
 if __name__ == "__main__":

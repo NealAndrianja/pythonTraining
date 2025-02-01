@@ -1,4 +1,5 @@
 import csv
+import os
 
 def writeData(data):
     has_data = False
@@ -29,8 +30,20 @@ def appendData(data):
 
 def readData():
     data = []
+
+    if not os.path.exists("contacts.csv"):
+        print("file not found")
+        return data
+
     with open("contacts.csv", "r") as file:
-        reader = csv.reader(file)
+        reader = csv.DictReader(file)
         for row in reader:
             data.append(row)
     return data
+
+def searchBy(value):
+    data = readData()
+    matches = [d for d in data if any(value in str(v) for v in d.values())]
+    if not matches:
+        print("No contact found")
+    return matches
