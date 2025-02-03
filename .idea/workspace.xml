@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AIAssistantCustomInstructionsStorage">
+    <option name="instructions">
+      <map>
+        <entry key="AIAssistant.VCS.GenerateCommitMessage">
+          <value>
+            <AIAssistantStoredInstruction>
+              <option name="actionId" value="AIAssistant.VCS.GenerateCommitMessage" />
+              <option name="content" value="Avoid overly verbose descriptions or unnecessary details.&#10;Start with a short sentence in imperative form, no more than 30 characters long.&#10;Write only one sentence." />
+            </AIAssistantStoredInstruction>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0785ce0-a878-4fa8-9fba-766b4de28277" name="Changes" comment="control structure" />
+    <list default="true" id="e0785ce0-a878-4fa8-9fba-766b4de28277" name="Changes" comment="Add contact management system with basic functionality&#10;&#10;Introduce a contact manager with options to add, view, search, update, delete, and export contacts. Implemented modules for handling contacts, managing unique phone numbers, and writing data to a CSV file. This forms the foundation for a functional contact management system.">
+      <change afterPath="$PROJECT_DIR$/Task Manager/task_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,15 +60,23 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.DataStuctures.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exercice1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WordFrequency.executor&quot;: &quot;Run&quot;,
+    &quot;Python.contact.executor&quot;: &quot;Run&quot;,
+    &quot;Python.contact_manager.executor&quot;: &quot;Run&quot;,
     &quot;Python.control_structures.executor&quot;: &quot;Run&quot;,
     &quot;Python.file_handling.executor&quot;: &quot;Run&quot;,
     &quot;Python.input-output.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_Tuples_Dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.modules.executor&quot;: &quot;Run&quot;,
     &quot;Python.scanPort.executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;Python.testing_variable.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AIAssistantPromptsLibrary&quot;
   }
 }</component>
   <component name="RunManager">
@@ -139,7 +164,39 @@
       <option name="project" value="LOCAL" />
       <updated>1736456081585</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="file_handling">
+      <option name="closed" value="true" />
+      <created>1737572780996</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737572780996</updated>
+    </task>
+    <task id="LOCAL-00007" summary="list tuple dictionary">
+      <option name="closed" value="true" />
+      <created>1737671316728</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737671316728</updated>
+    </task>
+    <task id="LOCAL-00008" summary="learning AI">
+      <option name="closed" value="true" />
+      <created>1738142326738</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738142326738</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add contact management system with basic functionality&#10;&#10;Introduce a contact manager with options to add, view, search, update, delete, and export contacts. Implemented modules for handling contacts, managing unique phone numbers, and writing data to a CSV file. This forms the foundation for a functional contact management system.">
+      <option name="closed" value="true" />
+      <created>1738224201613</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738224201613</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +216,10 @@
     <MESSAGE value="file handling with python" />
     <MESSAGE value="input and output" />
     <MESSAGE value="control structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="control structure" />
+    <MESSAGE value="file_handling" />
+    <MESSAGE value="list tuple dictionary" />
+    <MESSAGE value="learning AI" />
+    <MESSAGE value="Add contact management system with basic functionality&#10;&#10;Introduce a contact manager with options to add, view, search, update, delete, and export contacts. Implemented modules for handling contacts, managing unique phone numbers, and writing data to a CSV file. This forms the foundation for a functional contact management system." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add contact management system with basic functionality&#10;&#10;Introduce a contact manager with options to add, view, search, update, delete, and export contacts. Implemented modules for handling contacts, managing unique phone numbers, and writing data to a CSV file. This forms the foundation for a functional contact management system." />
   </component>
 </project>
