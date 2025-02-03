@@ -77,6 +77,7 @@ def main():
         elif choice == 4:
             delete_task(tasks)
         elif choice == 5:
+            save_tasks(tasks)
             break
 
 main()
